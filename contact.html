@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="./spotify.jpg" alt="Car Wash Logo" />
+        <a href="home.html"><img src="./spotify.jpg" alt="Car Wash Logo" /></a>
         <nav>
             <a href="home.html">HOME</a>
             <a href="about.html">ABOUT</a>
@@ -22,20 +22,35 @@
     </header>
 
     <main>
-        <section id="contact" class="section">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
+        <section id="contact" class="section contact-section">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to us with any questions or to schedule a service.</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Our Contact Information</h2>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <p><strong>Email:</strong> info@abasalitowash.com</p>
+                    <p><strong>Address:</strong> 123 Clean St, Wash City, CA 90210</p>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Send Message</button>
-            </form>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-section">
+                <h2>Find Us Here</h2>
+                <img src="./spotify.jpg" alt="Map Location" class="map-image" />
+            </div>
         </section>
     </main>
 
