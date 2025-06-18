@@ -246,6 +246,28 @@ footer {
   font-size: 0.9em;
 }
 
+.social-media {
+  margin-bottom: 0.5em;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 0.5em;
+  transition: transform 0.3s ease, fill 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon:hover svg {
+  fill: #4CAF50;
+  transform: scale(1.2);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   nav a {
